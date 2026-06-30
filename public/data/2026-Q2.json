@@ -1,0 +1,175 @@
+{
+  "period": "2026-Q2",
+  "generatedAt": "2026-06-29T12:00:00Z",
+  "narrative": "AMCE growth held strong: HC/HE market share hit target and New Crossover Individuals beat plan by 24%. Watch items: Drive-to-Digital adoption and at-risk client analytics coverage are off track, and HE MV-Attack strategic wins are behind pace. All values transcribed from the Q2 scorecard photo are flagged unverified until reconciled to source.",
+  "areas": [
+    { "id": "growth_retention", "label": "Growth & Retention", "impactMeasure": "Market share & client retention" },
+    { "id": "participant_engagement", "label": "Participant Engagement", "impactMeasure": "Engagement movement & lifetime value" },
+    { "id": "scale_resiliency", "label": "Scale & Resiliency", "impactMeasure": "Operating efficiency & governance" }
+  ],
+  "scorecard": [
+    {
+      "id": "TEM-01", "name": "HC/HE Market Share", "area": "growth_retention",
+      "scorecardLine": "Grow TEM's Business", "ownerTeam": "B2C + B2B Marketing",
+      "ownership": "shared", "leadLag": "lagging", "tier": "core", "unit": "percent",
+      "value": 34.7, "target": 34.7, "vsGoalPct": 100, "vsYoYPct": 104,
+      "status": "green", "priorPeriodValue": 33.3, "qoqTrend": "up", "priorYTD": 33.4,
+      "isShared": true, "contributors": ["B2C + B2B Marketing", "Analytics"],
+      "source": "Market data", "refreshCadence": "quarterly", "verified": false,
+      "trend": [
+        { "period": "2025-Q3", "value": 33.1 },
+        { "period": "2025-Q4", "value": 33.4 },
+        { "period": "2026-Q1", "value": 33.3 },
+        { "period": "2026-Q2", "value": 34.7 }
+      ]
+    },
+    {
+      "id": "TEM-02", "name": "Clients with 3+ Products", "area": "growth_retention",
+      "scorecardLine": "Grow TEM's Business", "ownerTeam": "Analytics",
+      "ownership": "owned", "leadLag": "lagging", "tier": "core", "unit": "count",
+      "value": 312, "target": 330, "vsGoalPct": 95, "vsYoYPct": 108,
+      "status": "green", "priorPeriodValue": 301, "qoqTrend": "up", "priorYTD": 298,
+      "source": "Enterprise data", "refreshCadence": "quarterly", "verified": false
+    },
+    {
+      "id": "TEM-03", "name": "HE Strategic Wins (MV Attack)", "area": "growth_retention",
+      "scorecardLine": "Execute on Key Initiatives", "ownerTeam": "Analytics",
+      "ownership": "led_partner", "leadLag": "leading", "tier": "strategic", "unit": "count",
+      "value": 7, "target": 10, "vsGoalPct": 70, "vsYoYPct": 117,
+      "status": "red", "priorPeriodValue": 5, "qoqTrend": "up",
+      "source": "Sales CRM", "refreshCadence": "quarterly", "verified": false,
+      "note": "Pipeline strong but conversions lag plan; two finals slipped to Q3."
+    },
+    {
+      "id": "TEM-04", "name": "New Crossover Individuals", "area": "participant_engagement",
+      "scorecardLine": "Deepen Participant Engagement", "ownerTeam": "B2C + B2B Marketing",
+      "ownership": "shared", "leadLag": "leading", "tier": "core", "unit": "count",
+      "value": 89783, "target": 72500, "vsGoalPct": 124, "vsYoYPct": 114,
+      "status": "green", "qoqTrend": "up", "priorYTD": 79036, "priorPeriodValue": 81250,
+      "isShared": true, "contributors": ["B2C + B2B Marketing", "Analytics"],
+      "source": "Enterprise data", "refreshCadence": "monthly", "verified": false,
+      "trend": [
+        { "period": "2025-Q3", "value": 71200 },
+        { "period": "2025-Q4", "value": 76900 },
+        { "period": "2026-Q1", "value": 81250 },
+        { "period": "2026-Q2", "value": 89783 }
+      ]
+    },
+    {
+      "id": "TEM-05", "name": "Participant Engagement Rate", "area": "participant_engagement",
+      "scorecardLine": "Deepen Participant Engagement", "ownerTeam": "Comms – Consultants",
+      "ownership": "shared", "leadLag": "lagging", "tier": "core", "unit": "percent",
+      "value": 61.4, "target": 64, "vsGoalPct": 96, "vsYoYPct": 103,
+      "status": "green", "priorPeriodValue": 60.1, "qoqTrend": "up", "priorYTD": 59.5,
+      "isShared": true, "contributors": ["Comms – Consultants", "B2C + B2B Marketing", "Events", "Analytics"],
+      "source": "Recordkeeping", "refreshCadence": "monthly", "verified": false
+    },
+    {
+      "id": "TEM-06", "name": "Rollover Retention", "area": "participant_engagement",
+      "scorecardLine": "Deepen Participant Engagement", "ownerTeam": "Analytics",
+      "ownership": "owned", "leadLag": "lagging", "tier": "core", "unit": "percent",
+      "value": 78, "target": 82, "vsGoalPct": 95, "vsYoYPct": 101,
+      "status": "green", "priorPeriodValue": 77, "qoqTrend": "up",
+      "source": "Recordkeeping", "refreshCadence": "quarterly", "verified": false
+    },
+    {
+      "id": "TEM-07", "name": "Plan Sponsor NPS", "area": "growth_retention",
+      "scorecardLine": "Client Retention", "ownerTeam": "Comms – Consultants",
+      "ownership": "shared", "leadLag": "lagging", "tier": "core", "unit": "score",
+      "value": 42, "target": 45, "vsGoalPct": 93, "vsYoYPct": 98,
+      "status": "amber", "priorPeriodValue": 44, "qoqTrend": "down",
+      "isShared": true, "contributors": ["Comms – Consultants", "Analytics"],
+      "source": "Survey", "refreshCadence": "quarterly", "verified": false
+    },
+    {
+      "id": "TEM-08", "name": "Client Retention Rate", "area": "growth_retention",
+      "scorecardLine": "Client Retention", "ownerTeam": "Analytics",
+      "ownership": "owned", "leadLag": "lagging", "tier": "core", "unit": "percent",
+      "value": 96.2, "target": 97, "vsGoalPct": 99, "vsYoYPct": 100,
+      "status": "green", "priorPeriodValue": 96.0, "qoqTrend": "up",
+      "source": "Enterprise data", "refreshCadence": "quarterly", "verified": false
+    },
+    {
+      "id": "TEM-09", "name": "Drive to Digital Adoption", "area": "scale_resiliency",
+      "scorecardLine": "Execute on Key Initiatives", "ownerTeam": "Comms – Implementation",
+      "ownership": "shared", "leadLag": "lagging", "tier": "strategic", "unit": "percent",
+      "value": 71, "target": 80, "vsGoalPct": 89, "vsYoYPct": 106,
+      "status": "red", "priorPeriodValue": 68, "qoqTrend": "up",
+      "isShared": true, "contributors": ["Comms – Implementation", "B2C + B2B Marketing", "Analytics"],
+      "source": "Digital analytics", "refreshCadence": "monthly", "verified": false,
+      "note": "Improving QoQ but still below the FY initiative target."
+    }
+  ],
+  "teams": [
+    {
+      "id": "analytics", "label": "Analytics", "lead": "Nick",
+      "kpis": [
+        { "id": "AN-01", "name": "Analytics Coverage of Strategic Opportunities", "area": "growth_retention", "ownerTeam": "Analytics", "ownership": "owned", "leadLag": "leading", "tier": "core", "unit": "percent", "value": 82, "target": 85, "vsGoalPct": 96, "vsYoYPct": 110, "status": "green", "priorPeriodValue": 79, "qoqTrend": "up", "source": "Internal tracker", "refreshCadence": "monthly", "verified": false },
+        { "id": "AN-02", "name": "At-Risk / Rebid Client Analytics Coverage", "area": "growth_retention", "ownerTeam": "Analytics", "ownership": "owned", "leadLag": "leading", "tier": "core", "unit": "percent", "value": 74, "target": 90, "vsGoalPct": 82, "vsYoYPct": 121, "status": "red", "priorPeriodValue": 61, "qoqTrend": "up", "source": "Internal tracker", "refreshCadence": "monthly", "verified": false, "note": "Backlog of rebid accounts without a current evidence pack." },
+        { "id": "AN-03", "name": "PlanAlign Action Rate", "area": "participant_engagement", "ownerTeam": "Analytics", "ownership": "led_partner", "leadLag": "leading", "tier": "core", "unit": "percent", "value": 58, "target": 60, "vsGoalPct": 97, "vsYoYPct": 115, "status": "green", "priorPeriodValue": 55, "qoqTrend": "up", "source": "Internal tracker", "refreshCadence": "monthly", "verified": false },
+        { "id": "AN-04", "name": "Automation Hours Saved", "area": "scale_resiliency", "ownerTeam": "Analytics", "ownership": "owned", "leadLag": "leading", "tier": "core", "unit": "count", "value": 1240, "target": 1000, "vsGoalPct": 124, "vsYoYPct": 162, "status": "green", "priorPeriodValue": 980, "qoqTrend": "up", "source": "Internal tracker", "refreshCadence": "monthly", "verified": false, "trend": [ { "period": "2025-Q3", "value": 640 }, { "period": "2025-Q4", "value": 760 }, { "period": "2026-Q1", "value": 980 }, { "period": "2026-Q2", "value": 1240 } ] },
+        { "id": "AN-05", "name": "Governance / Versioning Completeness", "area": "scale_resiliency", "ownerTeam": "Analytics", "ownership": "owned", "leadLag": "leading", "tier": "core", "unit": "percent", "value": 88, "target": 95, "vsGoalPct": 93, "vsYoYPct": 109, "status": "amber", "priorPeriodValue": 84, "qoqTrend": "up", "source": "Internal tracker", "refreshCadence": "quarterly", "verified": false },
+        { "id": "AN-06", "name": "Repeat Usage by Field Teams", "area": "scale_resiliency", "ownerTeam": "Analytics", "ownership": "owned", "leadLag": "leading", "tier": "strategic", "unit": "percent", "value": 64, "target": 70, "vsGoalPct": 91, "vsYoYPct": 118, "status": "amber", "priorPeriodValue": 58, "qoqTrend": "up", "source": "Internal tracker", "refreshCadence": "monthly", "verified": false }
+      ]
+    },
+    {
+      "id": "b2c-b2b-marketing", "label": "B2C + B2B Marketing", "lead": "Beth",
+      "kpis": [
+        { "id": "TEM-04", "name": "New Crossover Individuals", "area": "participant_engagement", "scorecardLine": "Deepen Participant Engagement", "ownerTeam": "B2C + B2B Marketing", "ownership": "shared", "leadLag": "leading", "tier": "core", "unit": "count", "value": 89783, "target": 72500, "vsGoalPct": 124, "vsYoYPct": 114, "status": "green", "qoqTrend": "up", "isShared": true, "contributors": ["B2C + B2B Marketing", "Analytics"], "source": "Enterprise data", "refreshCadence": "monthly", "verified": false },
+        { "id": "MK-01", "name": "Campaign Engagement Lift", "area": "participant_engagement", "ownerTeam": "B2C + B2B Marketing", "ownership": "shared", "leadLag": "leading", "tier": "core", "unit": "percent", "value": 12, "target": 10, "vsGoalPct": 120, "vsYoYPct": 130, "status": "green", "priorPeriodValue": 9, "qoqTrend": "up", "isShared": true, "contributors": ["B2C + B2B Marketing", "Analytics", "Comms – Consultants"], "source": "Marketing automation", "refreshCadence": "monthly", "verified": false },
+        { "id": "MK-02", "name": "B2C Paid Media Cost per Action", "area": "participant_engagement", "ownerTeam": "B2C + B2B Marketing", "ownership": "owned", "leadLag": "leading", "tier": "core", "unit": "currency", "value": 42, "target": 38, "vsGoalPct": 90, "vsYoYPct": 95, "status": "amber", "priorPeriodValue": 45, "qoqTrend": "down", "source": "Marketing automation", "refreshCadence": "monthly", "verified": false },
+        { "id": "MK-03", "name": "ABM Engagement (Target Accounts)", "area": "growth_retention", "ownerTeam": "B2C + B2B Marketing", "ownership": "led_partner", "leadLag": "leading", "tier": "strategic", "unit": "percent", "value": 31, "target": 40, "vsGoalPct": 78, "vsYoYPct": 124, "status": "red", "priorPeriodValue": 26, "qoqTrend": "up", "source": "Marketing automation", "refreshCadence": "monthly", "verified": false },
+        { "id": "MK-04", "name": "Brand Consideration (HC/HE)", "area": "growth_retention", "ownerTeam": "B2C + B2B Marketing", "ownership": "owned", "leadLag": "lagging", "tier": "core", "unit": "percent", "value": 47, "target": 50, "vsGoalPct": 94, "vsYoYPct": 104, "status": "amber", "priorPeriodValue": 45, "qoqTrend": "up", "source": "Brand survey", "refreshCadence": "quarterly", "verified": false }
+      ]
+    },
+    {
+      "id": "comms-consultants", "label": "Comms – Consultants", "lead": "Eric",
+      "kpis": [
+        { "id": "CC-01", "name": "Consultant Engagement Index", "area": "growth_retention", "ownerTeam": "Comms – Consultants", "ownership": "owned", "leadLag": "leading", "tier": "core", "unit": "score", "value": 72, "target": 75, "vsGoalPct": 96, "vsYoYPct": 106, "status": "green", "priorPeriodValue": 70, "qoqTrend": "up", "source": "Internal tracker", "refreshCadence": "monthly", "verified": false },
+        { "id": "CC-02", "name": "Thought Leadership Usage in Finals", "area": "growth_retention", "ownerTeam": "Comms – Consultants", "ownership": "shared", "leadLag": "leading", "tier": "strategic", "unit": "count", "value": 24, "target": 30, "vsGoalPct": 80, "vsYoYPct": 120, "status": "red", "priorPeriodValue": 18, "qoqTrend": "up", "isShared": true, "contributors": ["Comms – Consultants", "Analytics", "B2C + B2B Marketing"], "source": "Sales CRM", "refreshCadence": "quarterly", "verified": false },
+        { "id": "CC-03", "name": "CC / MD Enablement Coverage", "area": "scale_resiliency", "ownerTeam": "Comms – Consultants", "ownership": "shared", "leadLag": "leading", "tier": "core", "unit": "percent", "value": 68, "target": 80, "vsGoalPct": 85, "vsYoYPct": 113, "status": "red", "priorPeriodValue": 60, "qoqTrend": "up", "isShared": true, "contributors": ["Comms – Consultants", "Analytics"], "source": "Internal tracker", "refreshCadence": "quarterly", "verified": false },
+        { "id": "CC-04", "name": "PlanAlign Follow-up Materials Delivered", "area": "participant_engagement", "ownerTeam": "Comms – Consultants", "ownership": "led_partner", "leadLag": "leading", "tier": "core", "unit": "count", "value": 140, "target": 130, "vsGoalPct": 108, "vsYoYPct": 122, "status": "green", "priorPeriodValue": 125, "qoqTrend": "up", "source": "Internal tracker", "refreshCadence": "monthly", "verified": false }
+      ]
+    },
+    {
+      "id": "comms-sales", "label": "Comms – Sales / SCC", "lead": "Jon",
+      "kpis": [
+        { "id": "CS-01", "name": "Finals Support Coverage", "area": "growth_retention", "ownerTeam": "Comms – Sales / SCC", "ownership": "owned", "leadLag": "leading", "tier": "core", "unit": "percent", "value": 91, "target": 90, "vsGoalPct": 101, "vsYoYPct": 105, "status": "green", "priorPeriodValue": 88, "qoqTrend": "up", "source": "Internal tracker", "refreshCadence": "monthly", "verified": false },
+        { "id": "CS-02", "name": "RFP Response Quality Score", "area": "growth_retention", "ownerTeam": "Comms – Sales / SCC", "ownership": "owned", "leadLag": "leading", "tier": "core", "unit": "score", "value": 4.2, "target": 4.5, "vsGoalPct": 93, "vsYoYPct": 102, "status": "amber", "priorPeriodValue": 4.1, "qoqTrend": "up", "source": "Internal review", "refreshCadence": "quarterly", "verified": false },
+        { "id": "CS-03", "name": "SCC Content Reuse Rate", "area": "scale_resiliency", "ownerTeam": "Comms – Sales / SCC", "ownership": "owned", "leadLag": "leading", "tier": "core", "unit": "percent", "value": 56, "target": 60, "vsGoalPct": 93, "vsYoYPct": 117, "status": "amber", "priorPeriodValue": 49, "qoqTrend": "up", "source": "Content system", "refreshCadence": "monthly", "verified": false },
+        { "id": "CS-04", "name": "Sales Collateral Cycle Time (days)", "area": "scale_resiliency", "ownerTeam": "Comms – Sales / SCC", "ownership": "owned", "leadLag": "leading", "tier": "strategic", "unit": "count", "value": 9, "target": 7, "vsGoalPct": 88, "vsYoYPct": 90, "status": "red", "priorPeriodValue": 11, "qoqTrend": "down", "source": "Internal tracker", "refreshCadence": "monthly", "verified": false, "note": "Trending the right way (down) but still above the 7-day target." }
+      ]
+    },
+    {
+      "id": "comms-implementation", "label": "Comms – Implementation", "lead": "Jason",
+      "kpis": [
+        { "id": "TEM-09", "name": "Drive to Digital Adoption", "area": "scale_resiliency", "scorecardLine": "Execute on Key Initiatives", "ownerTeam": "Comms – Implementation", "ownership": "shared", "leadLag": "lagging", "tier": "strategic", "unit": "percent", "value": 71, "target": 80, "vsGoalPct": 89, "vsYoYPct": 106, "status": "red", "priorPeriodValue": 68, "qoqTrend": "up", "isShared": true, "contributors": ["Comms – Implementation", "B2C + B2B Marketing", "Analytics"], "source": "Digital analytics", "refreshCadence": "monthly", "verified": false },
+        { "id": "CI-01", "name": "Implementation Comms On-Time Rate", "area": "scale_resiliency", "ownerTeam": "Comms – Implementation", "ownership": "owned", "leadLag": "leading", "tier": "core", "unit": "percent", "value": 94, "target": 95, "vsGoalPct": 99, "vsYoYPct": 103, "status": "green", "priorPeriodValue": 92, "qoqTrend": "up", "source": "Internal tracker", "refreshCadence": "monthly", "verified": false },
+        { "id": "CI-02", "name": "New Client Onboarding Satisfaction", "area": "growth_retention", "ownerTeam": "Comms – Implementation", "ownership": "owned", "leadLag": "lagging", "tier": "core", "unit": "score", "value": 4.4, "target": 4.5, "vsGoalPct": 98, "vsYoYPct": 102, "status": "green", "priorPeriodValue": 4.3, "qoqTrend": "up", "source": "Survey", "refreshCadence": "quarterly", "verified": false },
+        { "id": "CI-03", "name": "Transition Comms Engagement", "area": "participant_engagement", "ownerTeam": "Comms – Implementation", "ownership": "shared", "leadLag": "leading", "tier": "core", "unit": "percent", "value": 63, "target": 65, "vsGoalPct": 97, "vsYoYPct": 108, "status": "green", "priorPeriodValue": 59, "qoqTrend": "up", "isShared": true, "contributors": ["Comms – Implementation", "B2C + B2B Marketing"], "source": "Marketing automation", "refreshCadence": "monthly", "verified": false }
+      ]
+    },
+    {
+      "id": "events", "label": "Events", "lead": "Kara",
+      "kpis": [
+        { "id": "EV-01", "name": "Event NPS", "area": "participant_engagement", "ownerTeam": "Events", "ownership": "owned", "leadLag": "lagging", "tier": "core", "unit": "score", "value": 68, "target": 65, "vsGoalPct": 105, "vsYoYPct": 107, "status": "green", "priorPeriodValue": 64, "qoqTrend": "up", "source": "Survey", "refreshCadence": "quarterly", "verified": false },
+        { "id": "EV-02", "name": "Webinar Attendance Rate", "area": "participant_engagement", "ownerTeam": "Events", "ownership": "owned", "leadLag": "leading", "tier": "core", "unit": "percent", "value": 44, "target": 40, "vsGoalPct": 110, "vsYoYPct": 112, "status": "green", "priorPeriodValue": 41, "qoqTrend": "up", "source": "Event platform", "refreshCadence": "monthly", "verified": false },
+        { "id": "EV-03", "name": "Sponsor / Forum Pipeline Influence", "area": "growth_retention", "ownerTeam": "Events", "ownership": "led_partner", "leadLag": "leading", "tier": "strategic", "unit": "currency", "value": 3200000, "target": 4000000, "vsGoalPct": 80, "vsYoYPct": 115, "status": "red", "priorPeriodValue": 2800000, "qoqTrend": "up", "source": "Sales CRM", "refreshCadence": "quarterly", "verified": false },
+        { "id": "EV-04", "name": "Post-Event Action Rate", "area": "participant_engagement", "ownerTeam": "Events", "ownership": "shared", "leadLag": "leading", "tier": "core", "unit": "percent", "value": 27, "target": 25, "vsGoalPct": 108, "vsYoYPct": 118, "status": "green", "priorPeriodValue": 23, "qoqTrend": "up", "isShared": true, "contributors": ["Events", "Analytics", "B2C + B2B Marketing"], "source": "Event platform", "refreshCadence": "monthly", "verified": false },
+        { "id": "EV-05", "name": "Cost per Engaged Attendee", "area": "scale_resiliency", "ownerTeam": "Events", "ownership": "owned", "leadLag": "leading", "tier": "core", "unit": "currency", "value": 85, "target": 90, "vsGoalPct": 106, "vsYoYPct": 96, "status": "green", "priorPeriodValue": 92, "qoqTrend": "down", "source": "Finance", "refreshCadence": "quarterly", "verified": false }
+      ]
+    }
+  ],
+  "sharedKPIs": [
+    { "id": "TEM-01", "name": "HC/HE Market Share", "area": "growth_retention", "ownerTeam": "B2C + B2B Marketing", "ownership": "shared", "leadLag": "lagging", "tier": "core", "unit": "percent", "value": 34.7, "target": 34.7, "vsGoalPct": 100, "status": "green", "isShared": true, "contributors": ["B2C + B2B Marketing", "Analytics"], "verified": false },
+    { "id": "TEM-04", "name": "New Crossover Individuals", "area": "participant_engagement", "ownerTeam": "B2C + B2B Marketing", "ownership": "shared", "leadLag": "leading", "tier": "core", "unit": "count", "value": 89783, "target": 72500, "vsGoalPct": 124, "status": "green", "isShared": true, "contributors": ["B2C + B2B Marketing", "Analytics"], "verified": false },
+    { "id": "TEM-05", "name": "Participant Engagement Rate", "area": "participant_engagement", "ownerTeam": "Comms – Consultants", "ownership": "shared", "leadLag": "lagging", "tier": "core", "unit": "percent", "value": 61.4, "target": 64, "vsGoalPct": 96, "status": "green", "isShared": true, "contributors": ["Comms – Consultants", "B2C + B2B Marketing", "Events", "Analytics"], "verified": false },
+    { "id": "TEM-07", "name": "Plan Sponsor NPS", "area": "growth_retention", "ownerTeam": "Comms – Consultants", "ownership": "shared", "leadLag": "lagging", "tier": "core", "unit": "score", "value": 42, "target": 45, "vsGoalPct": 93, "status": "amber", "isShared": true, "contributors": ["Comms – Consultants", "Analytics"], "verified": false },
+    { "id": "TEM-09", "name": "Drive to Digital Adoption", "area": "scale_resiliency", "ownerTeam": "Comms – Implementation", "ownership": "shared", "leadLag": "lagging", "tier": "strategic", "unit": "percent", "value": 71, "target": 80, "vsGoalPct": 89, "status": "red", "isShared": true, "contributors": ["Comms – Implementation", "B2C + B2B Marketing", "Analytics"], "verified": false },
+    { "id": "MK-01", "name": "Campaign Engagement Lift", "area": "participant_engagement", "ownerTeam": "B2C + B2B Marketing", "ownership": "shared", "leadLag": "leading", "tier": "core", "unit": "percent", "value": 12, "target": 10, "vsGoalPct": 120, "status": "green", "isShared": true, "contributors": ["B2C + B2B Marketing", "Analytics", "Comms – Consultants"], "verified": false },
+    { "id": "CC-02", "name": "Thought Leadership Usage in Finals", "area": "growth_retention", "ownerTeam": "Comms – Consultants", "ownership": "shared", "leadLag": "leading", "tier": "strategic", "unit": "count", "value": 24, "target": 30, "vsGoalPct": 80, "status": "red", "isShared": true, "contributors": ["Comms – Consultants", "Analytics", "B2C + B2B Marketing"], "verified": false },
+    { "id": "EV-04", "name": "Post-Event Action Rate", "area": "participant_engagement", "ownerTeam": "Events", "ownership": "shared", "leadLag": "leading", "tier": "core", "unit": "percent", "value": 27, "target": 25, "vsGoalPct": 108, "status": "green", "isShared": true, "contributors": ["Events", "Analytics", "B2C + B2B Marketing"], "verified": false },
+    { "id": "CC-03", "name": "CC / MD Enablement Coverage", "area": "scale_resiliency", "ownerTeam": "Comms – Consultants", "ownership": "shared", "leadLag": "leading", "tier": "core", "unit": "percent", "value": 68, "target": 80, "vsGoalPct": 85, "status": "red", "isShared": true, "contributors": ["Comms – Consultants", "Analytics"], "verified": false },
+    { "id": "CI-03", "name": "Transition Comms Engagement", "area": "participant_engagement", "ownerTeam": "Comms – Implementation", "ownership": "shared", "leadLag": "leading", "tier": "core", "unit": "percent", "value": 63, "target": 65, "vsGoalPct": 97, "status": "green", "isShared": true, "contributors": ["Comms – Implementation", "B2C + B2B Marketing"], "verified": false }
+  ]
+}
