@@ -14,6 +14,9 @@ build/
 .cache/
 .eslintcache
 
+# TypeScript incremental build info
+*.tsbuildinfo
+
 # Logs
 logs/
 *.log
